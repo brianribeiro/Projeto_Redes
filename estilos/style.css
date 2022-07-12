@@ -14,7 +14,7 @@ html, body {
 }
 
 body {
-    background: url("../img/fundo-madeira.jpg") center center no-repeat fixed;
+    background: url("../img/tela-fundo.jpg") center center no-repeat fixed;
     background-size: cover;
 }
 
@@ -47,7 +47,7 @@ iframe#tela2 {
     position: relative;
     top: -586px;
     left: 0px;
-    height: 624px;
+    height: 33px;
     width: 285px;
     border-style: none;
 }
@@ -69,4 +69,8 @@ section#redes-socias img:hover {
     transform: translate(-5px, 0px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.76);
     transition: 0.3s;
+}
+
+img#home {
+    width: 100vw;
 }
